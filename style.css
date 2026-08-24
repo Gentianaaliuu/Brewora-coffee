@@ -1,0 +1,54 @@
+/*coffee banner*/
+#coffee-banner {
+    position: relative;
+    height: 500px;
+
+    background-image: url("images/coffe-banner-section.avif");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coffee-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.coffee-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.coffee-content p {
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.coffee-content h2 {
+    font-size: 45px;
+    margin: 15px 0;
+}
+
+.coffee-content span {
+    display: block;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.coffee-content a {
+    display: inline-block;
+    padding: 12px 25px;
+    background: white;
+    color: #3b2418;
+    text-decoration: none;
+    border-radius: 5px;
+}
