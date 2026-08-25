@@ -56,8 +56,8 @@ header .container {
 
 /* LOGO */
 header img {
-    width: 170px;
-    height: 120px;
+    width: 150px;
+    height: 100px;
     object-fit: contain;
 }
 
@@ -109,22 +109,66 @@ header .search i {
     font-size: 18px;
 }
 
-header .search .order-now {
+header .search .btn {
     background-color: var(--coffee);
     color: var(--cream);
     padding: 12px 20px;
     border-radius: 6px;
 }
-main{
-    display: flex;
-    height: 70vh;
-    align-items: center;
+/*MAIN*/
 
-    .container{
-        display: flex;
-    }
+main {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+   
 }
 
+main .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 6px;
+
+    padding: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+
+    background-color: var(--cream);
+}
+
+main .content {
+    flex: 1;
+    max-width: 550px;
+   
+    h1{
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    p{
+        font-family: var(--primary);
+    }
+    .btn-exp{
+      display: inline-block;
+      margin-top: 30px;
+    background-color:var(--coffee);
+    color:var(--cream);
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    
+}
+}
+
+main img {
+    width: 450px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+}
 
 
 
