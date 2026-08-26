@@ -321,6 +321,7 @@ main img {
 
 /*coffee banner*/
 #coffee-banner {
+     margin-top: 30px;
     position: relative;
     height: 500px;
 
@@ -343,7 +344,7 @@ main img {
     position: relative;
     z-index: 1;
     text-align: center;
-    color: white;
+    color: white; 
     max-width: 700px;
     padding: 20px;
 }
@@ -351,11 +352,13 @@ main img {
 .coffee-content p {
     font-size: 14px;
     letter-spacing: 3px;
+    color: var(--cream);
 }
 
 .coffee-content h2 {
     font-size: 45px;
     margin: 15px 0;
+    color: var(--cream);
 }
 
 .coffee-content span {
@@ -363,6 +366,7 @@ main img {
     font-size: 17px;
     line-height: 1.6;
     margin-bottom: 25px;
+    color: var(--cream);
 }
 
 .coffee-content a {
@@ -373,4 +377,52 @@ main img {
     text-decoration: none;
     border-radius: 5px;
 }
+
+/*Location*/
+#location{
+    width: 1100px;
+    max-width: 90%;
+    margin: 50px auto;
+
+
+    margin-top: 80px;
+    display: flex;
+    border: 1px solid var(--cream);
+    border-radius: 6px;
+    background-color: var(--cream);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+
+    .location-info{
+        p{
+            color: var(--dark-coffee);
+            text-align: start;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        h2{
+            color: var(--dark-coffee);
+            text-align: start;
+            margin-bottom: 20px;
+        }
+        span{
+            color: var(--dark-coffee);
+        }
+        .btn-map{
+            text-decoration: none;
+            background-color: var(--milk);
+            padding: 10px;
+            border-radius: 6px;
+            color: var(--dark-coffee);
+            font-weight: 600;
+
+            &:hover{
+                background-color: var(--cream);
+               transform: scale(1.05);
+            }
+        }
+    }
+    
 }
