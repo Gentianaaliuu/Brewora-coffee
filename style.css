@@ -250,6 +250,72 @@ main img {
     text-decoration: none;
     border-radius: 6px;
 }
+#popular-menu{
+    height: 70vh;
+ 
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+    }
+    .popular-menu{
+        display: flex;
+        flex-direction:column ;
+        gap: 8px;
+        padding: 20px;
+        border: 1px solid black;
+        border: 6px;
+
+        &:hover img{
+             transform: scale(1.05);
+        }
+        
+    }
+    .popular-info{
+        h3{
+            color: var(--dark-coffee);
+            font-weight: 700;
+            font-size: 22px;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-family: var(--heading);
+            color: var(--coffee);
+            font-weight: 600;
+        }
+         .price-order{
+            
+             display: flex;
+             align-items: center;
+             justify-content:center;
+             gap: 10px;
+             margin-top: 15px;
+         }
+        span{
+            text-align: center;
+            font-weight: 400;
+            color: var(--text);
+        }
+        button{
+            text-align: center;
+            padding:10px;
+            border: 6px;
+            border-radius: 6px;
+            background-color: var(--milk);
+            color: var(--dark-coffee);
+
+            &:hover{
+                background-color: var(--coffee);
+                color: var(--milk);
+                  transform: scale(1.05);
+            }
+        }
+       
+        }
+    }
+}
 
 
 
